@@ -5,7 +5,23 @@
         
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
-
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+        
+        
         <style>
             *,
             *:after,
@@ -79,8 +95,9 @@
 
     <h1>Password Protected</h1>
     <p>Type the password alloted to you to access the teaching website.</p>
-    <img src="password.png" alt="Image Missing" class="center">
-
+<div class="imgbox">
+    <img class="center-fit" src="password.png" alt="Image Missing">
+</div>
     <br>
         <div class="protected">
             <div class="protected__alert" data-id="alert">You entered the wrong password</div>
