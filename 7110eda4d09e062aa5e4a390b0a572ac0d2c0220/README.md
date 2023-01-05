@@ -1,6 +1,6 @@
 # WhatsApp Group
 
-## To join using link click here
+## Join using link
 
 👉 [Click Here](https://chat.whatsapp.com/HOgFrBVm8syJYgWyTkeIQF)
 
