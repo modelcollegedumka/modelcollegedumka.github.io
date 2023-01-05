@@ -1,11 +1,11 @@
-# MODEL COLLEGE DUMKA WhatsApp Group
+# WhatsApp Group
 
 ## To join using link click here
 
 👉 [Click Here](https://chat.whatsapp.com/HOgFrBVm8syJYgWyTkeIQF)
 
 
-## To join using QR Scan Click Here
+## Join using QR Scan
 
 👇 
 
