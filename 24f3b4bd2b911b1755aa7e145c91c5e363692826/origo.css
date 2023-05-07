@@ -1,3 +1,4 @@
+
 *{margin:0; padding:0;}
 
 /* General styles */
@@ -13,8 +14,8 @@ h3 {font-size:1.6em; margin:0 0 5px 0;}
 h1,h2,h3 {color:#d06060; font-weight:400; line-height:1.2em; font-family:'Economica', sans-serif;}
 
 /* Main layout container */
-#layout {margin:40px auto 0; width:fit-content;}
-body.wider #layout {margin:40px auto 0; width:fit-content;}
+#layout {margin:40px auto 0; width:960px;}
+body.wider #layout {margin:40px auto 0; width:1200px;}
 
 /* Footer */
 #footer {background:#0a0a0a url(images/insidebg.jpg) top center no-repeat;}
