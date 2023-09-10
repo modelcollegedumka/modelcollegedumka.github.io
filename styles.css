@@ -1,38 +1,20 @@
-/* Set font family and size for the entire page */
+/* Common styles for both desktop and mobile */
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 12pt;
-}
-
-/* Remove underline from hyperlinks */
-a {
-    text-decoration: none;
-}
-
-/* Define A4 paper size (210mm x 297mm) */
-@page {
-    size: A4;
-    margin: 1cm; /* Set margins (adjust as needed) */
-}
-
-/* Center content on the page */
-body {
     margin: 0;
     padding: 0;
     text-align: left;
 }
 
-/* Adjust content width to fit A4 page */
-.content {
-    width: 100%;
-    max-width: 19cm; /* Adjust as needed */
-    /* margin: 0 auto;*/
+a {
+    text-decoration: none;
 }
 
 /* Style for the journal article links */
 p.journal-article-list-title {
     margin: 0;
-    padding: 5px 0;
+    padding: 10px; /* Increase padding for touch-friendly interaction */
     background-color: lightgreen; /* Light green background color */
     border: 1px solid #ccc; /* Gray border color */
     border-radius: 5px; /* Rounded corners for the box */
@@ -59,3 +41,17 @@ p.journal-article-list-title a:hover {
     padding: 8px;
     text-align: left;
 }
+
+/* Styles for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 767px) {
+    /* Reduce font size for better readability on mobile */
+    body {
+        font-size: 10pt;
+    }
+
+    /* Style for the journal article links on mobile */
+    p.journal-article-list-title {
+        padding: 10px; /* Increase padding for touch-friendly interaction */
+    }
+}
+
