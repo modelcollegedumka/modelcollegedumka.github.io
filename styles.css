@@ -16,6 +16,13 @@ h1 {
     margin-bottom: 0.5cm; /* Separation of 0.5cm between elements */
     
 }
+
+h2 {
+    text-align:center;
+    color:red;
+    
+}
+
 a {
     text-decoration: none;
 }
