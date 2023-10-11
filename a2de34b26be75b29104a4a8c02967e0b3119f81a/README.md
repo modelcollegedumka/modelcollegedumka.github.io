@@ -1,9 +1,11 @@
 # Teaching Page
-The lecture notes provided in the class can be viewed by clicking on the **link** under the *Classroom  Lectures*. Study Materials  from various sources related to IGNOU, Delhi University Notes, NCERT etc. can also be found under *Study Materials* section.\
 
-क्लासरूम लेक्चर्स के तहत दिए गए **लिंक** पर क्लिक करके क्लास में दिए गए लेक्चर नोट्स को देखा जा सकता है। इग्नू, दिल्ली विश्वविद्यालय के नोट्स, एनसीईआरटी आदि से संबंधित विभिन्न स्रोतों से अध्ययन सामग्री भी अध्ययन सामग्री अनुभाग के अंतर्गत प्राप्त की जा सकती है।
+Welcome to the physics classroom! Here, you'll find valuable resources and information to enhance your understanding of physics.
+
 ## Classroom Lectures
-👉 [Link](https://sites.google.com/view/phy-lecture)
+You can access the recorded classroom lectures on our dedicated [Physics Lecture](https://sites.google.com/view/phy-lecture) page. Feel free to revisit the lectures to reinforce your understanding of the topics discussed in class.
 
 ## Study Materials
-👉 [Link](https://sites.google.com/view/phy-lecture/notes)
+For additional study materials, including notes and supplementary resources, please visit our [Study Materials](https://sites.google.com/view/phy-lecture/notes) page. These materials will support your learning and help you excel in your physics studies.
+
+Feel free to reach out if you have any questions or need further assistance. Happy learning!
