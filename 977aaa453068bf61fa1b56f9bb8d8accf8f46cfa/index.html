@@ -10,9 +10,13 @@
       background-color: #f2f2f2;
       margin: 0;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
-    .container {
+    .content-box {
+      flex: 1;
       max-width: 800px;
       margin: 20px auto;
       background-color: #fff;
@@ -95,20 +99,46 @@
       margin: 5px;
       color: #0066cc;
       text-decoration: none;
+      font-size: 14px;
+    }
+
+    .home-container {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .home-button {
+      background-color: transparent;
+      color: #4CAF50; /* Green */
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
       font-size: 20px;
+      transition: color 0.3s;
+    }
+
+    .home-button:hover {
+      color: #45a049;
     }
 
     .footer {
-      margin-top: 20px;
       padding: 10px;
       background-color: #FFD700; /* Subtle gold for footer */
       color: #333;
       border-radius: 5px;
+      text-align: center;  /* Center-align the content within the footer */
+    }
+
+    .footer-content {
+      max-width: 600px;
+      margin: 0 auto;  /* Center-align the content within the footer */
     }
   </style>
 </head>
 <body>
-<div class="container">
+<div class="content-box">
 <div class="premium-heading">
   <h1>Physics</h1>
 </div>
@@ -695,6 +725,10 @@
   </div>
 </div>
 
+</div> <!-- Close the content-box div -->
+<div class="home-container">
+  <button class="home-button" onclick="goToHome()">🏠 Home</button>
+</div>
 <div class="footer">
   <div class="footer-content">
     <p class="credit">&#169; 2023 design by <a href="https://rajeshphy.github.io" target="_blank">Rajesh Kumar</a></p>
@@ -722,6 +756,12 @@
     } else {
       nestedBox.style.display = 'none';
     }
+  }
+
+  function goToHome() {
+    // Add your logic to navigate to the home page or perform any desired action
+    // For example, you can use window.location.href to navigate to a specific URL
+    window.location.href = 'index.html';  // Replace '/home' with the actual URL of your home page
   }
 </script>
 
