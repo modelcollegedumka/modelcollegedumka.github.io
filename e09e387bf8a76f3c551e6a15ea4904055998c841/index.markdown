@@ -1,5 +1,3 @@
-# Welcome to Physics Classroom 🌟
-
 ## Classroom Lectures
 📚 [Lectures Hyperlink](https://rajeshphy.github.io/SKMU/)
 
