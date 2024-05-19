@@ -4,6 +4,6 @@
 📚 [Lectures Hyperlink](https://rajeshphy.github.io/SKMU/)
 
 ## Study Materials
-📘 Access additional study resources like notes: [Study Materials](https://sites.google.com/view/phy-lecture/notes)
+📘 Access additional resources: [Study Materials](https://sites.google.com/view/phy-lecture/notes)
 
 Stay curious and enjoy your physics journey! 🚀
