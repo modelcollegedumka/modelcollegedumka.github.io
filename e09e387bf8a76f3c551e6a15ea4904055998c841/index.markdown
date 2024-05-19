@@ -1,3 +1,6 @@
+---
+layout: home
+---
 ## Classroom Lectures
 📚 [Lectures Hyperlink](https://rajeshphy.github.io/SKMU/)
 
