@@ -4,6 +4,36 @@
   {% include head.html %}
 
   <body id="page-top">
+
+
+
+
+    
+  <!-- JavaScript to change background images -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const masthead = document.querySelector('.masthead');
+      const images = [
+        'assets/img/bg-masthead-1.jpg',
+        'assets/img/bg-masthead-2.jpg',
+        'assets/img/bg-masthead-3.jpg',
+        'assets/img/bg-masthead-4.jpg',
+        // Add more images as needed
+      ];
+      let currentIndex = 0;
+
+      function changeBackgroundImage() {
+        masthead.style.backgroundImage = `linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('${images[currentIndex]}')`;
+        currentIndex = (currentIndex + 1) % images.length;
+      }
+
+      setInterval(changeBackgroundImage, 2500); // Change image every 5 seconds
+    });
+  </script>
+
+
+
+
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
