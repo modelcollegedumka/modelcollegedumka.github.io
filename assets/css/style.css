@@ -138,6 +138,7 @@ header .menu {
 .scroll-to-top i {
   font-weight: 800;
 }
+/* Base styles for the masthead */
 .masthead {
   min-height: 15rem;
   position: relative;
@@ -146,10 +147,10 @@ header .menu {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: background-image 1s ease-in-out;
 }
 
 .masthead h1 {
@@ -164,7 +165,7 @@ header .menu {
   .masthead {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-position: top center;
+    background-position: center center;
   }
   .masthead h1 {
     font-size: 2rem;
