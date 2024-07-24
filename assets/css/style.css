@@ -10,6 +10,73 @@ body {
 
 
 
+
+.blinking-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding to make the button thinner */
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Gradient background */
+  border: none;
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+  text-align: center; /* Center text */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.blinking-button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb); /* Gradient background on hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+.new-label {
+  display: inline-block;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 2px 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .blinking-button {
+    padding: 8px 15px; /* Reduce padding for smaller screens */
+    font-size: 14px; /* Adjust font size for smaller screens */
+    border-radius: 20px; /* Slightly smaller border radius */
+  }
+
+  .new-label {
+    padding: 1px 4px; /* Adjust padding for smaller screens */
+    margin-left: 5px; /* Reduce margin for smaller screens */
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .title-banner {
             font-size: 3rem;
             font-weight: 700;
